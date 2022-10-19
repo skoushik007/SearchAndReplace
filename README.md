@@ -15,4 +15,5 @@ Usage:
 Python  main.py  <in_file> <search_replace_file in json>
 
 in_file -> contains the text that will be processed.
+
 search_replace_file->contains the search and replace in json format.
