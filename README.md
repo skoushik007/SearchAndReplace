@@ -6,16 +6,14 @@ So this program doesn't load whole file and then do the processing and hence sui
  
 SearchReplace class runs though the text just once and hence the main processing runs in o(n) time with o(1) space.
 
-Trie class does pre processing on the search and replace string given as the json file as a parameter to the main program. Pre processing takes o(n + m) time and o(n + m)space,
-	n is the total number of characters in the search strings.
-    m is the total number of characters in the replace strings.
+Trie class does pre processing on the search and replace string given as the json file which is a parameter to the main program. Pre processing takes o(n + m) time and o(n + m)space where n is the total number of characters in the search strings. m is the total number of characters in the replace strings.
 
-Usage:
-
-Python  main.py  <in_file> <search_replace_file in json>
+# Usage:
+Python  main.py  <in_file> <search_replace_file>
 
 in_file -> contains the text that will be processed.
 
 search_replace_file->contains the search and replace in json format.
 
-Note: Refer to test directories for examples.
+# Note: 
+Refer to test directories for examples.
